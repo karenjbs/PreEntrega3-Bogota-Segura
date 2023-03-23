@@ -28,22 +28,12 @@ section{
 .card-container {
     margin-top: 60px;
     margin-bottom: 80px;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 200px;
+    margin-right: 200px;
     display: grid;
     grid-template-columns: repeat(auto-fill, 348px);
     gap: 26px;
     place-content: center;
-
-    .menu-lateral{
-        height: 550px;
-        width: 240px;
-        position: fixed;
-        top: 150px;
-        left: 26px;
-        padding-top: 40px;
-
-    }
 
     .product-card {
         width: 340px;
