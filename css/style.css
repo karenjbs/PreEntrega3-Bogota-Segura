@@ -135,8 +135,8 @@ section .card-container {
   section .card-container .product-card {
     width: 320px; }
   section .card-container .product-card img {
-    width: 340px;
-    height: 450px;
+    width: 310px;
+    height: 420px;
     border-radius: 20px;
     object-fit: cover; }
   section .card-container .producto-info {
@@ -146,12 +146,12 @@ section .card-container {
     margin-top: 12px; }
   section .card-container .producto-info div p:nth-child(1) {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 0;
     margin-bottom: 4px;
     margin-left: 6px; }
   section .card-container .producto-info div p:nth-child(2) {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 0;
     margin-bottom: 6px;
     color: #6e6e6e;
@@ -168,8 +168,8 @@ section .card-container {
     transform: scale(1.5); }
   section .card-container .product-card:hover {
     background: center/100% url("../assets/productos/Post-4.png");
-    width: 340px;
-    height: 450px;
+    width: 310px;
+    height: 420px;
     border-radius: 20px;
     object-fit: cover; }
 
@@ -278,13 +278,13 @@ main {
     display: flex;
     justify-content: center; }
     main .container .card {
-      margin-left: 12px;
-      margin-right: 12px;
-      margin-top: 12px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
       margin-bottom: 30px;
-      border-radius: 12px; }
+      border-radius: 8px; }
       main .container .card .card-body {
-        font-weight: 100;
+        font-weight: 50;
         font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif; }
         main .container .card .card-body .title-p {
           margin: 8px;

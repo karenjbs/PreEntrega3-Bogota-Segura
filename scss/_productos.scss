@@ -35,8 +35,8 @@ section{
     }
 
     .product-card img {
-        width: 340px;
-        height: 450px;
+        width: 310px;
+        height: 420px;
         border-radius: 20px;
         object-fit: cover;
     }
@@ -50,14 +50,14 @@ section{
 
     .producto-info div p:nth-child(1) {
         font-weight: bold;
-        font-size: $md;
+        font-size: $sm;
         margin-top: 0;
         margin-bottom: 4px;
         margin-left: 6px;
     }
 
     .producto-info div p:nth-child(2) {
-        font-size: $md;
+        font-size: $sm;
         margin-top: 0;
         margin-bottom: 6px;
         color: $dark;
@@ -84,8 +84,8 @@ section{
 
     .product-card:hover{
         background:  center/100% url("../assets/productos/Post-4.png");
-        width: 340px;
-        height: 450px;
+        width: 310px;
+        height: 420px;
         border-radius: 20px;
         object-fit: cover;
     }
