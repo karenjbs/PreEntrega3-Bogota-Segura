@@ -1,5 +1,4 @@
 .descuento-inicio{
-
     font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
             background: no-repeat center/100% url("../assets/fondo/blob-scene-haikei.svg");
 
@@ -12,19 +11,15 @@
                 color: $color-logo; 
                 font-weight: bold;
                 font-size: 1.5rem;
-                opacity: 70%;
+                opacity: 70%;              
                
             }
-
             p:hover{
                 opacity: 100%;
-            }
-            
+            }      
         }
-
+        
 section{
-
-
 .card-container {
     margin-top: 60px;
     margin-bottom: 80px;
@@ -36,7 +31,7 @@ section{
     place-content: center;
 
     .product-card {
-        width: 340px;
+        width: 320px;
     }
 
     .product-card img {

@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 header {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
   font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif; }
   header nav {
@@ -133,7 +133,7 @@ section .card-container {
   gap: 26px;
   place-content: center; }
   section .card-container .product-card {
-    width: 340px; }
+    width: 320px; }
   section .card-container .product-card img {
     width: 340px;
     height: 450px;
@@ -269,7 +269,7 @@ main {
     main .titulo-producto a {
       text-decoration: none;
       color: #6e6e6e;
-      font-size: 2rem; }
+      font-size: 1.5rem; }
     main .titulo-producto a:hover {
       color: #845474;
       font-weight: bold;
