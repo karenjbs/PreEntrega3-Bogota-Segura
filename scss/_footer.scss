@@ -1,0 +1,108 @@
+    hr{
+        background-color: $dark;}
+
+     .descuento{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            p{
+                color: $color-logo; 
+                margin-right: 20px;  
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+            form{
+            .ingreso {
+                background-color:$white;
+                border: 2px solid $dark;
+                border-radius: 6px;
+                width: 100%;
+                height: 24px;
+                font-size: $sm;
+                padding: 20px;
+        }      
+    }
+    .btn-suscribe {
+        background-color: $contraste-logo;
+        border-radius: 28px;
+        border: none;
+        color: $color-logo;
+        width: 8%;
+        cursor: pointer;
+        font-size: $md;
+        font-weight: bold;
+        height: 42px;
+        margin-left: 24px;
+
+        &:hover {
+                background-color: $color-logo;
+                color: $white;
+            }
+        }
+    }
+        
+    .bg-footer {
+            font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+            background: no-repeat center/100% url("../assets/fondo/06.svg");
+            text-align: center;
+            font-size: $md;
+            color: $color-logo;
+            display: grid;
+            place-items: center;
+            justify-items: center;
+
+    section {
+        margin-top: 90px;
+        margin-bottom: 90px;
+     
+        .redes {
+            width: 46px;
+            height: 46px;
+            margin-bottom: 28px;
+        }
+
+        .btn-secundary {
+            background-color: $contraste-logo;
+            border-radius: 8px;
+            color: $color-logo;
+            width: 100%;
+            cursor: pointer;
+            font-size: $md;
+            font-weight: bold;
+            height: 50px;
+
+            &:hover {
+                    background-color: $color-logo;
+                    color: $white;
+                }
+        }
+    
+    }
+}
+    
+
+    .texto {
+        background-color: $white;
+        text-align: center;
+        color: $color-logo;
+        margin-bottom: 4px;
+
+        a {
+            text-decoration: none;
+            color: $color-logo;
+            font-weight: bold;
+        }
+    
+    }
+
+
+.btn-registro {
+    background-color: $white;
+    border-radius: 8px;
+    color: var(--thistle);
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    display: grid;
+}
+

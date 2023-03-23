@@ -1,0 +1,100 @@
+main{
+    font-weight: 100;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+
+    section{
+        margin: 0;
+    }
+
+    .titulo-producto{
+        list-style: none;
+        text-align: center;
+        margin-top: 12px;
+        cursor: pointer;
+
+        a{
+            text-decoration: none;
+            color: $dark;
+            font-size: 2.5rem;
+        }
+
+        a:hover{
+            color: $color-logo;
+            font-weight: bold;
+            border-bottom: 2px solid $color-logo;
+        }
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+
+        .card{
+            margin-left: 12px;
+            margin-right: 12px;
+            margin-top: 12px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+
+            .card-body{
+                font-weight: 100;
+                font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+  
+                .title-p{
+                    margin: 8px;
+                    text-align: center;
+                    color: $dark;
+                }
+                
+                .title-c{
+                    margin: 8px;
+                    text-align: center;
+                    color: $dark;
+                }
+
+                .btn-compra{
+                    display: flex;
+                    border: 1px solid $dark;
+                    color:$dark;
+                    place-content: center;
+                    padding: 12px;
+                    border-radius: 8px;
+                    text-decoration: none;
+                }
+
+                .btn-compra:hover{
+                    color: $white;
+                    background-color: $color-logo;
+                    font-weight: bold;
+                    border-bottom: 2px solid $color-logo;
+                    
+                }
+
+                .btn-carrito{
+                    display: flex;
+                    padding: 0px;
+                    width: 26px;
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+
+    .card:hover{
+        transform: scale(1.1);
+    }
+
+.videos{
+
+        .video{
+            margin: 10px;
+        }
+    }
+
+    @media only screen and (min-width: 375px) {
+        .videos {
+          width: 100%;
+        }
+      }
+   
+}

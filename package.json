@@ -1,0 +1,25 @@
+{
+  "name": "preentrega2-bogota-segura",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karenjbs/PreEntrega2-Bogota-Segura.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karenjbs/PreEntrega2-Bogota-Segura/issues"
+  },
+  "homepage": "https://github.com/karenjbs/PreEntrega2-Bogota-Segura#readme",
+  "description": ""
+}

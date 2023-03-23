@@ -1,0 +1,110 @@
+body {
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    margin: 0;
+}
+
+.login {
+    height: 80vh;
+    display: grid;
+    place-items: center;
+    justify-items: center;
+
+    .form-container {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        width: 300px;
+
+        .form {
+            display: flex;
+            flex-direction: column;
+
+            .label {
+                font-size: $md;
+                font-weight:bold;
+                color: $text-input-field;
+                margin-bottom: 4px;
+            }
+
+            .input {
+                background-color:$contraste-logo;
+                border: none;
+                border-radius: 8px;
+                height: 30px;
+                font-size: $sm;
+                padding: 22px;
+                margin-bottom: 12px;
+                align-self: auto;
+
+                .input-email {
+                    margin-bottom: 22px;
+                }
+            }
+            
+            .input:hover{
+                background-color: $white;
+            }
+
+            .btn-primary {
+                background-color: $dark;
+                border-radius: 8px;
+                border: none;
+                color: $text-input-field;
+                font-weight: bold;
+                width: 100%;
+                cursor: pointer;
+                font-size: $lg;
+                height: 50px;
+            }
+
+            .login-btn {
+                margin-top: 80px;
+                margin-bottom: 30px;
+            }
+
+            .login-btn:hover{
+                color: $white;
+            font-weight: bold;
+           background-color: $color-logo;  
+            }
+
+
+            
+            .resend {
+                font-size: $sm;
+                text-align: center;
+            }
+            
+            .resend a {
+                color: $color-logo;
+                text-decoration: none;
+                margin-bottom: 52px;
+            }
+
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-secundary {
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--thistle);
+    color: var(--thistle);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+

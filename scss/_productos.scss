@@ -1,0 +1,113 @@
+.descuento-inicio{
+
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+            background: no-repeat center/100% url("../assets/fondo/blob-scene-haikei.svg");
+
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            p{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                color: $color-logo; 
+                font-weight: bold;
+                font-size: 1.5rem;
+                opacity: 70%;
+               
+            }
+
+            p:hover{
+                opacity: 100%;
+            }
+            
+        }
+
+section{
+
+
+.card-container {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    margin-left: 220px;
+    margin-right: 220px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 348px);
+    gap: 26px;
+    place-content: center;
+
+    .menu-lateral{
+        height: 550px;
+        width: 240px;
+        position: fixed;
+        top: 150px;
+        left: 26px;
+        padding-top: 40px;
+
+    }
+
+    .product-card {
+        width: 340px;
+    }
+
+    .product-card img {
+        width: 340px;
+        height: 450px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .producto-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 12px;
+    }
+
+    .producto-info div p:nth-child(1) {
+        font-weight: bold;
+        font-size: $md;
+        margin-top: 0;
+        margin-bottom: 4px;
+        margin-left: 6px;
+    }
+
+    .producto-info div p:nth-child(2) {
+        font-size: $md;
+        margin-top: 0;
+        margin-bottom: 6px;
+        color: $dark;
+        margin-left: 6px;
+    }
+
+    .producto-info figure {
+        margin: 0;
+    }
+
+    .producto-info figure img {
+        width: 40px;
+        height: 40px;
+        margin-right: 6px;
+    }
+
+    .img-producto:hover{
+        opacity: 0%;
+    }
+
+    .img-btn:hover{
+        transform: scale(1.5);
+    }
+
+    .product-card:hover{
+        background:  center/100% url("../assets/productos/Post-4.png");
+        width: 340px;
+        height: 450px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+}
+}
+
+
+
+
+
